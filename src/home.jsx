@@ -31,7 +31,7 @@ export default function Home() {
     <div className="bg-black text-white min-h-screen">
       {/* NAVBAR */}
       <header className="fixed top-0 left-0 right-0 z-50 bg-black/80 backdrop-blur-lg border-b border-cyan-500/30">
-        <nav className="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
+        <nav className="max-w-7xl mx-auto flex justify-between items-center px-6 py-5">
 
           {/* LOGO */}
           <div>
@@ -47,7 +47,7 @@ export default function Home() {
               </span>
             </div>
 
-            <h1 className="text-2xl md:text-3xl font-bold mt-1 text-white">
+            <h1 className="text-3xl md:text-4xl tracking-wide font-bold mt-1 text-white">
               WEB STUDIO
             </h1>
 
@@ -85,7 +85,7 @@ export default function Home() {
       </header>
 
       {/* HERO */}
-      <section className="min-h-screen flex items-center pt-28 px-6">
+      <section className="min-h-screen flex items-center pt-40 pb-16 px-6">
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
 
           {/* LEFT */}
@@ -98,7 +98,7 @@ export default function Home() {
               Modern Websites
               <br />
               for{" "}
-              <span className="text-cyan-400">
+              <span className="text-cyan-400 drop-shadow-[0_0_20px_rgba(34,211,238,0.8)]">
                 Growing Businesses
               </span>
             </h2>
@@ -153,11 +153,11 @@ export default function Home() {
 
           {/* RIGHT */}
           <div className="relative flex justify-center">
-            <div className="absolute w-[350px] h-[350px] bg-cyan-500/20 blur-[100px] rounded-full"></div>
+            <div className="absolute w-[450px] h-[450px] bg-cyan-500/40 blur-[180px] rounded-full animate-pulse"></div>
 
             <div className="bg-zinc-950 border border-cyan-500/30 rounded-[40px] overflow-hidden shadow-2xl relative z-10">
               <img
-                src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=1200&auto=format&fit=crop"
+                src="https://images.unsplash.com/photo-1551434678-e076c223a692?q=80&w=1200&auto=format&fit=crop"
                 alt="Agency"
                 className="w-full h-[500px] object-cover"
               />
@@ -326,7 +326,104 @@ export default function Home() {
     ))}
   </div>
 </section>
+{/* OUR PROCESS */}
+<section className="max-w-7xl mx-auto py-24 px-6">
+  <div className="text-center mb-16">
+    <p className="text-cyan-400 uppercase tracking-[4px]">
+      Our Process
+    </p>
 
+    <h2 className="text-4xl md:text-6xl font-bold leading-tight">
+      Simple Process, Powerful Results
+    </h2>
+
+    <p className="text-gray-400 mt-4 max-w-2xl mx-auto">
+      We follow a clear step-by-step process to build premium
+      websites that help businesses grow online.
+    </p>
+  </div>
+
+  <div className="grid md:grid-cols-4 gap-8">
+
+    {/* STEP 1 */}
+    <div className="bg-zinc-950 border border-cyan-500/20 rounded-[30px] p-8 text-center hover:border-cyan-400 transition duration-300 hover:-translate-y-2 hover:shadow-[0_0_35px_rgba(34,211,238,0.2)]">
+      <div className="w-20 h-20 rounded-full bg-cyan-500/10 border border-cyan-500 flex items-center justify-center mx-auto text-4xl mb-6">
+        💬
+      </div>
+
+      <span className="text-cyan-400 text-sm font-bold">
+        STEP 01
+      </span>
+
+      <h3 className="text-2xl font-bold mt-3 mb-4">
+        Discussion
+      </h3>
+
+      <p className="text-gray-400 leading-7">
+        We understand your business, goals and website requirements.
+      </p>
+    </div>
+
+    {/* STEP 2 */}
+    <div className="bg-zinc-950 border border-cyan-500/20 rounded-[30px] p-8 text-center hover:border-cyan-400 transition hover:-translate-y-2">
+      <div className="w-20 h-20 rounded-full bg-cyan-500/10 border border-cyan-500 flex items-center justify-center mx-auto text-4xl mb-6">
+        🎨
+      </div>
+
+      <span className="text-cyan-400 text-sm font-bold">
+        STEP 02
+      </span>
+
+      <h3 className="text-2xl font-bold mt-3 mb-4">
+        Design
+      </h3>
+
+      <p className="text-gray-400 leading-7">
+        We create a premium design tailored to your business brand.
+      </p>
+    </div>
+
+    {/* STEP 3 */}
+    <div className="bg-zinc-950 border border-cyan-500/20 rounded-[30px] p-8 text-center hover:border-cyan-400 transition hover:-translate-y-2">
+      <div className="w-20 h-20 rounded-full bg-cyan-500/10 border border-cyan-500 flex items-center justify-center mx-auto text-4xl mb-6">
+        💻
+      </div>
+
+      <span className="text-cyan-400 text-sm font-bold">
+        STEP 03
+      </span>
+
+      <h3 className="text-2xl font-bold mt-3 mb-4">
+        Development
+      </h3>
+
+      <p className="text-gray-400 leading-7">
+        We build a fast, responsive and premium website experience.
+      </p>
+    </div>
+
+    {/* STEP 4 */}
+    <div className="bg-zinc-950 border border-cyan-500/20 rounded-[30px] p-8 text-center hover:border-cyan-400 transition hover:-translate-y-2">
+      <div className="w-20 h-20 rounded-full bg-cyan-500/10 border border-cyan-500 flex items-center justify-center mx-auto text-4xl mb-6">
+        🚀
+      </div>
+
+      <span className="text-cyan-400 text-sm font-bold">
+        STEP 04
+      </span>
+
+      <h3 className="text-2xl font-bold mt-3 mb-4">
+        Launch
+      </h3>
+
+      <p className="text-gray-400 leading-7">
+        Your website goes live and starts attracting more customers.
+      </p>
+    </div>
+  </div>
+</section>
+
+{/* TESTIMONIALS */}
 {/* TESTIMONIALS */}
 <section className="bg-zinc-950 py-24 px-6">
   <div className="max-w-7xl mx-auto text-center">
@@ -335,71 +432,280 @@ export default function Home() {
       Testimonials
     </p>
 
-    <h2 className="text-5xl font-bold mt-4 mb-14">
-      What Clients Say
+    <h2 className="text-4xl md:text-6xl font-bold mt-4 mb-14">
+      What Our Clients Say
     </h2>
 
     <div className="grid md:grid-cols-3 gap-8">
-      {[
-        "Amazing premium website. Very professional service.",
-        "Highly recommended for local business websites.",
-        "Fast delivery and modern design quality.",
-      ].map((review, index) => (
-        <div
-          key={index}
-          className="bg-black border border-cyan-500/20 rounded-[30px] p-8"
-        >
-          <div className="text-cyan-400 text-2xl mb-4">
-            ⭐⭐⭐⭐⭐
-          </div>
 
-          <p className="text-gray-400 leading-7">
-            {review}
-          </p>
+      {/* TESTIMONIAL 1 */}
+      <div className="bg-black border border-cyan-500/20 rounded-[30px] p-8 hover:border-cyan-400 transition duration-300 hover:shadow-[0_0_35px_rgba(34,211,238,0.15)]">
+
+        <div className="flex items-center gap-4 mb-6">
+          <img
+            src="https://randomuser.me/api/portraits/men/32.jpg"
+            alt="client"
+            className="w-16 h-16 rounded-full object-cover border border-cyan-500"
+          />
+
+          <div className="text-left">
+            <h3 className="font-bold text-lg">
+              Ravi Kumar
+            </h3>
+
+            <p className="text-cyan-400 text-sm">
+              Restaurant Owner
+            </p>
+          </div>
         </div>
-      ))}
+
+        <div className="text-yellow-400 mb-4 text-xl">
+          ⭐⭐⭐⭐⭐
+        </div>
+
+        <p className="text-gray-400 leading-8 text-left">
+          CtrlAltShift Web Studio created an amazing
+          restaurant website for us. It looks premium
+          and helped us present our business professionally.
+        </p>
+      </div>
+
+      {/* TESTIMONIAL 2 */}
+      <div className="bg-black border border-cyan-500/20 rounded-[30px] p-8 hover:border-cyan-400 transition duration-300 hover:shadow-[0_0_45px_rgba(34,211,238,0.25)] hover:-translate-y-2">
+
+        <div className="flex items-center gap-4 mb-6">
+          <img
+            src="https://randomuser.me/api/portraits/women/44.jpg"
+            alt="client"
+            className="w-16 h-16 rounded-full object-cover border border-cyan-500"
+          />
+
+          <div className="text-left">
+            <h3 className="font-bold text-lg">
+              Dr. Anita Reddy
+            </h3>
+
+            <p className="text-cyan-400 text-sm">
+              Clinic Owner
+            </p>
+          </div>
+        </div>
+
+        <div className="text-yellow-400 mb-4 text-xl">
+          ⭐⭐⭐⭐⭐
+        </div>
+
+        <p className="text-gray-400 leading-8 text-left">
+          Professional team and fast delivery.
+          The website design improved our clinic’s
+          online presence and trust.
+        </p>
+      </div>
+
+      {/* TESTIMONIAL 3 */}
+      <div className="bg-black border border-cyan-500/20 rounded-[30px] p-8 hover:border-cyan-400 transition duration-300 hover:shadow-[0_0_35px_rgba(34,211,238,0.15)]">
+
+        <div className="flex items-center gap-4 mb-6">
+          <img
+            src="https://randomuser.me/api/portraits/men/67.jpg"
+            alt="client"
+            className="w-16 h-16 rounded-full object-cover border border-cyan-500"
+          />
+
+          <div className="text-left">
+            <h3 className="font-bold text-lg">
+              Suresh Patel
+            </h3>
+
+            <p className="text-cyan-400 text-sm">
+              Business Owner
+            </p>
+          </div>
+        </div>
+
+        <div className="text-yellow-400 mb-4 text-xl">
+          ⭐⭐⭐⭐⭐
+        </div>
+
+        <p className="text-gray-400 leading-8 text-left">
+          Highly recommended for business websites.
+          Clean design, smooth communication and
+          premium quality work.
+        </p>
+      </div>
     </div>
   </div>
 </section>
 
 {/* CONTACT */}
+{/* CONTACT */}
 <section
   id="contact"
-  className="max-w-5xl mx-auto py-24 px-6 text-center"
+  className="max-w-7xl mx-auto py-24 px-6"
 >
-  <p className="text-cyan-400 uppercase tracking-[4px]">
-    Contact Us
-  </p>
+  <div className="text-center mb-16">
+    <p className="text-cyan-400 uppercase tracking-[4px]">
+      Contact Us
+    </p>
 
-  <h2 className="text-5xl font-bold mt-4">
-    Let’s Build Your Website
-  </h2>
+    <h2 className="text-4xl md:text-6xl font-bold mt-4">
+      Let’s Build Your Website
+    </h2>
 
-  <p className="text-gray-400 mt-6 text-lg">
-    Ready to grow your business online?
-    Contact CtrlAltShift Web Studio today.
-  </p>
+    <p className="text-gray-400 mt-4 max-w-2xl mx-auto">
+      Ready to grow your business online?
+      Contact CtrlAltShift Web Studio today
+      for a free consultation.
+    </p>
+  </div>
 
-  <div className="flex justify-center gap-4 mt-10 flex-wrap">
-<a
-  href="https://wa.me/917396959547"
-  target="_blank"
-  rel="noreferrer"
-  className="bg-green-500 hover:bg-green-400 px-8 py-4 rounded-2xl font-bold text-black inline-block"
+  <div className="grid md:grid-cols-2 gap-12 items-center">
+
+    {/* LEFT INFO */}
+    <div>
+      <div className="space-y-8">
+
+        <div className="bg-zinc-950 border border-cyan-500/20 rounded-[25px] p-6">
+          <h3 className="text-xl font-bold text-cyan-400">
+            📞 Call / WhatsApp
+          </h3>
+
+          <p className="text-gray-300 mt-2">
+            +91 7396 9595 47
+          </p>
+        </div>
+
+        <div className="bg-zinc-950 border border-cyan-500/20 rounded-[25px] p-6">
+          <h3 className="text-xl font-bold text-cyan-400">
+            📧 Email
+          </h3>
+
+          <p className="text-gray-300 mt-2">
+            ctrlaltshiftwebstudio@gmail.com
+          </p>
+        </div>
+
+        <div className="bg-zinc-950 border border-cyan-500/20 rounded-[25px] p-6">
+          <h3 className="text-xl font-bold text-cyan-400">
+            📍 Location
+          </h3>
+
+          <p className="text-gray-300 mt-2">
+            Hyderabad, Telangana
+          </p>
+        </div>
+      </div>
+    </div>
+
+    {/* CONTACT FORM */}
+    <div className="bg-zinc-950 border border-cyan-500/20 rounded-[35px] p-8 shadow-[0_0_40px_rgba(34,211,238,0.08)]">
+
+      <form
+  className="space-y-6"
+  onSubmit={(e) => {
+    e.preventDefault();
+
+    const name = e.target.name.value;
+    const phone = e.target.phone.value;
+    const business = e.target.business.value;
+    const message = e.target.message.value;
+
+    const whatsappMessage =
+      `Hello CtrlAltShift Web Studio!%0A%0A` +
+      `Name: ${name}%0A` +
+      `Phone: ${phone}%0A` +
+      `Business Type: ${business}%0A` +
+      `Message: ${message}`;
+
+    window.open(
+      `https://wa.me/917396959547?text=${whatsappMessage}`,
+      "_blank"
+    );
+  }}
 >
-  WhatsApp Us
-</a>
 
-<a
-  href="https://wa.me/917396959547"
-  target="_blank"
-  rel="noreferrer"
-  className="border border-cyan-500 hover:bg-cyan-500 hover:text-black px-8 py-4 rounded-2xl font-bold text-cyan-400 inline-block"
->
-  Free Consultation
-</a>
+  <div>
+    <label className="block text-gray-300 mb-2">
+      Full Name
+    </label>
+
+    <input
+      type="text"
+      name="name"
+      placeholder="Enter your name"
+      required
+      className="w-full bg-black border border-cyan-500/20 rounded-xl p-4 text-white outline-none focus:border-cyan-400"
+    />
+  </div>
+
+  <div>
+    <label className="block text-gray-300 mb-2">
+      Phone Number
+    </label>
+
+    <input
+      type="text"
+      name="phone"
+      placeholder="Enter your phone number"
+      required
+      className="w-full bg-black border border-cyan-500/20 rounded-xl p-4 text-white outline-none focus:border-cyan-400"
+    />
+  </div>
+
+  <div>
+    <label className="block text-gray-300 mb-2">
+      Business Type
+    </label>
+
+    <select
+      name="business"
+      required
+      className="w-full bg-black border border-cyan-500/20 rounded-xl p-4 text-white outline-none focus:border-cyan-400"
+    >
+      <option value="">
+        Select Business Type
+      </option>
+      <option>Restaurant</option>
+      <option>Clinic</option>
+      <option>Hospital</option>
+      <option>Store</option>
+      <option>School</option>
+      <option>Other</option>
+    </select>
+  </div>
+
+  <div>
+    <label className="block text-gray-300 mb-2">
+      Message
+    </label>
+
+    <textarea
+      rows="4"
+      name="message"
+      placeholder="Tell us about your website requirements"
+      required
+      className="w-full bg-black border border-cyan-500/20 rounded-xl p-4 text-white outline-none focus:border-cyan-400"
+    />
+  </div>
+
+  <button
+    type="submit"
+    className="w-full bg-cyan-500 hover:bg-cyan-400 text-black font-bold py-4 rounded-2xl transition duration-300 hover:shadow-[0_0_35px_rgba(34,211,238,0.4)] hover:-translate-y-1"
+  >
+    Get Free Website Consultation
+  </button>
+</form>
+    </div>
   </div>
 </section>
+<a
+  href="https://wa.me/917396959547"
+  target="_blank"
+  rel="noreferrer"
+  className="fixed bottom-6 right-6 bg-green-500 hover:bg-green-400 p-5 rounded-full shadow-[0_0_40px_rgba(34,197,94,0.6)] text-3xl z-50 transition hover:scale-110"
+>
+  💬
+</a>
 
 {/* FOOTER */}
 <footer className="border-t border-cyan-500/20 py-10 text-center text-gray-500">
