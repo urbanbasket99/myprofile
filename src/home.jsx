@@ -278,16 +278,50 @@ export default function Home() {
             A modern hospital website featuring
             doctor profiles, appointments,
             services and emergency contact support.
-          </p>
+           </p>
 
-          <a
-  href="https://trident-hospitals.vercel.app/"
-  target="_blank"
-  rel="noreferrer"
-  className="mt-6 border border-cyan-500 hover:bg-cyan-500 hover:text-black px-6 py-3 rounded-xl text-cyan-400 font-bold inline-block"
->
-  View Project
-</a>
+           <a
+            href="https://trident-hospitals.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+            className="mt-6 border border-cyan-500 hover:bg-cyan-500 hover:text-black px-6 py-3 rounded-xl text-cyan-400 font-bold inline-block"
+              > 
+              View Project
+              </a>
+        </div>
+      </div>
+      {/* PROJECT 2 */}
+      <div className="bg-black border border-cyan-500/20 rounded-[35px] overflow-hidden hover:border-cyan-400 transition">
+
+        <img
+          src="https://images.unsplash.com/photo-1587351021759-3e566b6af7cc?q=80&w=1200&auto=format&fit=crop"
+          alt="Hospital Website"
+          className="w-full h-[320px] object-cover"
+        />
+
+        <div className="p-8">
+          <span className="text-cyan-400 text-sm uppercase">
+            Ecommerce Website
+          </span>
+
+          <h3 className="text-3xl font-bold mt-3">
+            Urban Basket
+          </h3>
+
+          <p className="text-gray-400 mt-4 leading-7">
+            A modern hospital website featuring
+            doctor profiles, appointments,
+            services and emergency contact support.
+           </p>
+
+           <a
+            href="https://urban-basket-1-dzt0.onrender.com/"
+            target="_blank"
+            rel="noreferrer"
+            className="mt-6 border border-cyan-500 hover:bg-cyan-500 hover:text-black px-6 py-3 rounded-xl text-cyan-400 font-bold inline-block"
+              > 
+              View Project
+              </a>
         </div>
       </div>
     </div>
