@@ -290,14 +290,14 @@ export default function Home() {
               </a>
         </div>
       </div>
-      {/* PROJECT 2 */}
+      {/* PROJECT 3 */}
       <div className="bg-black border border-cyan-500/20 rounded-[35px] overflow-hidden hover:border-cyan-400 transition">
 
-        <img
-          src="https://images.unsplash.com/photo-1587351021759-3e566b6af7cc?q=80&w=1200&auto=format&fit=crop"
-          alt="Hospital Website"
-          className="w-full h-[320px] object-cover"
-        />
+     <img
+  src="/urbanbasket.png"
+  alt="Urban Basket"
+  className="w-full h-[320px] object-cover rounded-t-[35px]"
+/>
 
         <div className="p-8">
           <span className="text-cyan-400 text-sm uppercase">
@@ -309,9 +309,7 @@ export default function Home() {
           </h3>
 
           <p className="text-gray-400 mt-4 leading-7">
-            A modern hospital website featuring
-            doctor profiles, appointments,
-            services and emergency contact support.
+           A premium grocery eCommerce website with product browsing, cart, orders, admin dashboard, and smooth online shopping experience.
            </p>
 
            <a
