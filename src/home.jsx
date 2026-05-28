@@ -568,8 +568,155 @@ export default function Home() {
     </div>
   </div>
 </section>
+{/* PRICING */}
+<section className="max-w-7xl mx-auto py-24 px-6">
+  <div className="text-center mb-16">
+    <p className="text-cyan-400 uppercase tracking-[4px]">
+      Pricing Plans
+    </p>
 
-{/* CONTACT */}
+    <h2 className="text-4xl md:text-6xl font-bold mt-4">
+      Affordable Website Packages
+    </h2>
+
+    <p className="text-gray-400 mt-4 max-w-2xl mx-auto">
+      Premium website solutions for businesses of all sizes.
+      Transparent pricing with modern design and mobile responsiveness.
+    </p>
+    <p className="text-cyan-400 mt-3 text-sm">
+  ✔ No hidden charges • ✔ Fast delivery • ✔ WhatsApp support
+</p>
+  </div>
+
+  <div className="grid md:grid-cols-3 gap-8">
+
+    {/* BASIC */}
+    <div className="bg-zinc-950 border border-cyan-500/20 rounded-[35px] p-8 hover:border-cyan-400 transition duration-300 hover:-translate-y-2">
+
+      <h3 className="text-2xl font-bold mb-4">
+        Basic Website
+      </h3>
+
+      <p className="text-gray-400 mb-6">
+        Best for small local businesses
+      </p>
+
+      <h2 className="text-5xl font-bold text-cyan-400 mb-8">
+        ₹3,999
+      </h2>
+
+      <ul className="space-y-4 text-gray-300">
+        <li>✅ Single Page Website</li>
+        <li>✅ Mobile Responsive</li>
+        <li>✅ WhatsApp Integration</li>
+        <li>✅ Contact Form</li>
+        <li>✅ Fast Delivery</li>
+      </ul>
+
+      <a
+        href="https://wa.me/917396959547"
+        target="_blank"
+        rel="noreferrer"
+        className="mt-8 block text-center bg-cyan-500 hover:bg-cyan-400 text-black py-4 rounded-2xl font-bold"
+      >
+        Get Started
+      </a>
+    </div>
+
+    {/* BUSINESS */}
+    <div className="bg-cyan-500 text-black rounded-[35px] p-8 scale-105 shadow-[0_0_40px_rgba(34,211,238,0.25)]">
+
+      <span className="bg-black text-cyan-400 px-4 py-2 rounded-full text-sm font-bold">
+        MOST POPULAR
+      </span>
+
+      <h3 className="text-2xl font-bold mt-6 mb-4">
+        Business Website
+      </h3>
+
+      <p className="mb-6">
+        Ideal for restaurants, clinics & stores
+      </p>
+
+      <h2 className="text-5xl font-bold mb-8">
+        ₹6,999
+      </h2>
+
+      <ul className="space-y-4">
+        <li>✅ Multi Page Website</li>
+        <li>✅ Premium Design</li>
+        <li>✅ Mobile Responsive</li>
+        <li>✅ WhatsApp Integration</li>
+        <li>✅ Contact Form</li>
+        <li>✅ Basic SEO</li>
+      </ul>
+
+      <a
+        href="https://wa.me/917396959547"
+        target="_blank"
+        rel="noreferrer"
+        className="mt-8 block text-center bg-black text-cyan-400 py-4 rounded-2xl font-bold"
+      >
+        Get Started
+      </a>
+    </div>
+
+    {/* PREMIUM */}
+    <div className="bg-zinc-950 border border-cyan-500/20 rounded-[35px] p-8 hover:border-cyan-400 transition duration-300 hover:-translate-y-2">
+
+      <h3 className="text-2xl font-bold mb-4">
+        Premium Website
+      </h3>
+
+      <p className="text-gray-400 mb-6">
+        Advanced business websites
+      </p>
+
+      <h2 className="text-5xl font-bold text-cyan-400 mb-8">
+        ₹12,999
+      </h2>
+
+      <ul className="space-y-4 text-gray-300">
+        <li>✅ Custom Design</li>
+        <li>✅ Admin Dashboard</li>
+        <li>✅ Booking / Orders</li>
+        <li>✅ Advanced Features</li>
+        <li>✅ Premium Support</li>
+      </ul>
+
+      <a
+        href="https://wa.me/917396959547"
+        target="_blank"
+        rel="noreferrer"
+        className="mt-8 block text-center bg-cyan-500 hover:bg-cyan-400 text-black py-4 rounded-2xl font-bold"
+      >
+        Get Started
+      </a>
+    </div>
+  </div>
+</section>
+
+<section className="max-w-6xl mx-auto px-6 py-24">
+  <div className="bg-cyan-500 rounded-[40px] p-12 text-center text-black">
+
+    <h2 className="text-4xl md:text-6xl font-bold">
+      Ready To Grow Your Business?
+    </h2>
+
+    <p className="mt-4 text-lg">
+      Let’s build a premium website that attracts more customers.
+    </p>
+
+    <a
+      href="https://wa.me/917396959547"
+      target="_blank"
+      rel="noreferrer"
+      className="inline-block mt-8 bg-black text-cyan-400 px-8 py-4 rounded-2xl font-bold hover:scale-105 transition"
+    >
+      Get Free Consultation
+    </a>
+  </div>
+</section>
 {/* CONTACT */}
 <section
   id="contact"
