@@ -386,6 +386,38 @@ export default function Home() {
               </a>
         </div>
       </div>
+      {/* PROJECT 6 */}
+      <div className="bg-black border border-cyan-500/20 rounded-[35px] overflow-hidden hover:border-cyan-400 transition">
+
+            <img
+           src="/bright-future.png"
+            alt="prime-estate"
+            className="w-full h-[320px] object-cover rounded-t-[35px]"
+            />
+
+           <div className="p-8">
+            <span className="text-cyan-400 text-sm uppercase">
+           School Website
+            </span>
+
+            <h3 className="text-3xl font-bold mt-3">
+            Bright Future International School
+            </h3>
+
+            <p className="text-gray-400 mt-4 leading-7">
+          A premium international school website featuring academic programs, facilities, achievements, admissions, testimonials and responsive modern UI.
+           </p>
+
+           <a
+            href="https://bright-future-school-psi.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+            className="mt-6 border border-cyan-500 hover:bg-cyan-500 hover:text-black px-6 py-3 rounded-xl text-cyan-400 font-bold inline-block"
+              > 
+              View Project
+              </a>
+        </div>
+      </div>
     </div>
   </div>
 </section>
