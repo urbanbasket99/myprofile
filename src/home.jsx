@@ -293,27 +293,59 @@ export default function Home() {
       {/* PROJECT 3 */}
       <div className="bg-black border border-cyan-500/20 rounded-[35px] overflow-hidden hover:border-cyan-400 transition">
 
-     <img
-  src="/urbanbasket.png"
-  alt="Urban Basket"
-  className="w-full h-[320px] object-cover rounded-t-[35px]"
-/>
+            <img
+           src="/urbanbasket.png"
+            alt="Urban Basket"
+            className="w-full h-[320px] object-cover rounded-t-[35px]"
+            />
 
-        <div className="p-8">
-          <span className="text-cyan-400 text-sm uppercase">
+           <div className="p-8">
+            <span className="text-cyan-400 text-sm uppercase">
             Ecommerce Website
-          </span>
+            </span>
 
-          <h3 className="text-3xl font-bold mt-3">
+            <h3 className="text-3xl font-bold mt-3">
             Urban Basket
-          </h3>
+            </h3>
 
-          <p className="text-gray-400 mt-4 leading-7">
+            <p className="text-gray-400 mt-4 leading-7">
            A premium grocery eCommerce website with product browsing, cart, orders, admin dashboard, and smooth online shopping experience.
            </p>
 
            <a
             href="https://urban-basket-1-dzt0.onrender.com/"
+            target="_blank"
+            rel="noreferrer"
+            className="mt-6 border border-cyan-500 hover:bg-cyan-500 hover:text-black px-6 py-3 rounded-xl text-cyan-400 font-bold inline-block"
+              > 
+              View Project
+              </a>
+        </div>
+      </div>
+      {/* PROJECT 4 */}
+      <div className="bg-black border border-cyan-500/20 rounded-[35px] overflow-hidden hover:border-cyan-400 transition">
+
+            <img
+           src="/divine-pooja-store.png"
+            alt="Urban Basket"
+            className="w-full h-[320px] object-cover rounded-t-[35px]"
+            />
+
+           <div className="p-8">
+            <span className="text-cyan-400 text-sm uppercase">
+           Pooja Store
+            </span>
+
+            <h3 className="text-3xl font-bold mt-3">
+            Divine Pooja Store
+            </h3>
+
+            <p className="text-gray-400 mt-4 leading-7">
+           A premium devotional eCommerce-style website designed for pooja stores, featuring WhatsApp ordering, featured products, festival specials, testimonials, and a premium traditional UI.
+           </p>
+
+           <a
+            href="https://divine-pooja-store.vercel.app/"
             target="_blank"
             rel="noreferrer"
             className="mt-6 border border-cyan-500 hover:bg-cyan-500 hover:text-black px-6 py-3 rounded-xl text-cyan-400 font-bold inline-block"
